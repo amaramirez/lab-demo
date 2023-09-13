@@ -1,0 +1,14 @@
+// initialization
+// it has to be done in two places
+// - initialize the repo locally through the terminal
+// - create repo remotely (ie GitHub)
+// set remote branch locally through terminal
+
+// git clone [url]
+// pulling existing data from a remote repo
+
+// the repeated process (the big 4)
+// git status, to check files being committed
+// git add, to track files
+// git commit -m "message", will create a commit that can be pushed to the remote repo
+// git push origin (main/master)
