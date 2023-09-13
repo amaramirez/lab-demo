@@ -1,0 +1,43 @@
+h1 {
+    color: red;
+}
+
+p:last-child {
+    background-color: blue;
+}
+
+p:first-child {
+    background-color: blue;
+}
+
+p:nth-child(3) {
+    background-color: darkolivegreen;
+}
+
+#second-text::first-line {
+    color: white;
+}
+
+#header-container a {
+    text-decoration: none;
+    color: green;
+    font-size: 2em;
+
+}
+
+#header-container a:not(:last-child)::after {
+    content: " | ";
+    background-color: white;
+}
+
+#header-container a:hover {
+    background-color: coral;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}

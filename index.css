@@ -1,0 +1,13 @@
+h2 {
+    background-color: bisque;
+}
+
+h2::after {
+    content: " <- after this";
+    color: red;
+}
+
+h2::before {
+    content: "before this -> ";
+    color: red;
+}
