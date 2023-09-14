@@ -4,10 +4,17 @@
         <title>CSS Demo</title>
         <link rel="stylesheet" href="/style.css" />
         <link rel="stylesheet" href="/index.css" />
+        <script src="index.js" defer></script>
     </head>
 
     <body>
-        <div id="header-container">
+        <form action="/login.html">
+            <input type="text" id="username" name="username" />
+            <input type="password" id="password" name="password" />
+            <button id="submit-button" type="submit" onclick="setData()">Go</button>
+        </form>
+
+        <!-- <div id="header-container">
             <h1>Personal Website</h1>
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
@@ -17,12 +24,14 @@
 
         <h2>Hello, world!</h2>
 
+        
+
         <div id="second-text">
             <p>Lorem Ipsum</p>
             <p>Lorem Ipsum</p>
             <p>Lorem Ipsum</p>
             <p>Lorem Ipsum</p>
             <p>Lorem Ipsum</p>
-        </div>
+        </div> -->
     </body>
 </html>
